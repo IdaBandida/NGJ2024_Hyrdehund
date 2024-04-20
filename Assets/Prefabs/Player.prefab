@@ -98,10 +98,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2074047c7b3a894691278431ddb15bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  runSpeed: 10
+  repelRadius: 5
   rb: {fileID: 6302387790714145743}
-  radius: 2
-  repelForce: 2
+  dogTransform: {fileID: 1475172580208886907}
 --- !u!50 &6302387790714145743
 Rigidbody2D:
   serializedVersion: 4

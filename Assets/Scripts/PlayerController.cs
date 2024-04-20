@@ -10,11 +10,13 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 moveInput;
     public Rigidbody2D rb;
+    private Animator animator;
     public Transform dogTransform; // Reference to the dog's transform
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frames
@@ -24,6 +26,11 @@ public class PlayerController : MonoBehaviour
         moveInput.y = Input.GetAxisRaw("Vertical") *  Time.deltaTime; //apply input to y axis
 
         moveInput.Normalize();
+
+        animator.SetBool("right", moveInput.x > 0);
+        animator.SetBool("left", moveInput.x < 0);
+        animator.SetBool("up", moveInput.y > 0);
+        animator.SetBool("down", moveInput.y < 0);
 
         rb.velocity = moveInput * runSpeed; //apply speed to rigidbody
 

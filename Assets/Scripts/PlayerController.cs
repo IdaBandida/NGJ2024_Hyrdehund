@@ -48,4 +48,12 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Boundary"))
+        {
+            Debug.Log("collided with " + collision);
+        }
+    }
 }

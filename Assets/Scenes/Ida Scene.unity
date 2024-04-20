@@ -851,16 +851,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2745157327616722479, guid: 53b0bdf9fba067f4cb4bdaf9f67da21b, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2745157327616722479, guid: 53b0bdf9fba067f4cb4bdaf9f67da21b, type: 3}
       propertyPath: speed
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2745157327616722479, guid: 53b0bdf9fba067f4cb4bdaf9f67da21b, type: 3}
       propertyPath: radius
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2745157327616722479, guid: 53b0bdf9fba067f4cb4bdaf9f67da21b, type: 3}
       propertyPath: repelForce
-      value: 0.1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7482307321828675911, guid: 53b0bdf9fba067f4cb4bdaf9f67da21b, type: 3}
       propertyPath: m_Name

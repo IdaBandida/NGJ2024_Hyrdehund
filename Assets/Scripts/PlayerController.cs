@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveInput;
     public Rigidbody2D rb;
 
-    public float radius = 2f; //radius around dog
-    public float repelForce = 2f; //force applied to sheep
+    public float radius = 5f; //radius around dog
+    public float repelForce = 5f; //force applied to sheep
 
     private void Start()
     {

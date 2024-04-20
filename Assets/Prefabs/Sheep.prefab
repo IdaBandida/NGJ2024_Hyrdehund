@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 816432304277316667}
   - component: {fileID: 940533407780226413}
   - component: {fileID: 2539191663525270723}
+  - component: {fileID: 267556565973835538}
+  - component: {fileID: 8902259808875708968}
   m_Layer: 0
   m_Name: Sheep
   m_TagString: Sheep
@@ -102,6 +104,8 @@ MonoBehaviour:
   maxRepelSpeed: 10
   minRepelSpeed: 2
   maxDistance: 5
+  avoidSheeps: {fileID: 267556565973835538}
+  attractSheeps: {fileID: 8902259808875708968}
 --- !u!58 &940533407780226413
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -164,3 +168,35 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &267556565973835538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4277959791917624766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00330f777b6900743a2c089fddc108cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minRange: 0.5
+  maxRange: 1
+  minForce: -15
+  maxForce: 0
+--- !u!114 &8902259808875708968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4277959791917624766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00330f777b6900743a2c089fddc108cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minRange: 1
+  maxRange: 6
+  minForce: 0.3
+  maxForce: 0.6

@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 10;
+    public float runSpeed = 10;
+    public float repelRadius = 5f; //radius around dog
+
     private Vector2 moveInput;
     public Rigidbody2D rb;
-
-    public float radius = 5f; //radius around dog
-    public float repelForce = 5f; //force applied to sheep
+    public Transform dogTransform; // Reference to the dog's transform
 
     private void Start()
     {
@@ -25,14 +25,14 @@ public class PlayerController : MonoBehaviour
 
         moveInput.Normalize();
 
-        rb.velocity = moveInput * speed; //apply speed to rigidbody
+        rb.velocity = moveInput * runSpeed; //apply speed to rigidbody
 
         CheckCollision();
     }
 
     void CheckCollision()
     {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, radius); //Get a list of all Colliders that fall within a circular area
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, repelRadius); //Get a list of all Colliders that fall within a circular area
 
         foreach (Collider2D collider in colliders)  //for each collider that fall within the radius
         {
@@ -40,9 +40,10 @@ public class PlayerController : MonoBehaviour
             {
                 {
                     Vector2 repelDirection = (collider.transform.position - transform.position).normalized; //calculate the direction and make it a unit vector by normalizing it
-                    float distance = Vector2.Distance(transform.position, collider.transform.position); //get distance from dog. (dog position - sheep position)
-                    float repelStrength = Mathf.Lerp(repelForce, 0f, distance / radius); // Adjust repel strength based on distance
-                    collider.GetComponent<Sheep>().ApplyRepulsion(repelDirection * repelStrength); //call method on sheep script
+                    float distanceToDog = Vector2.Distance(collider.transform.position, dogTransform.position); //get distance from dog
+                    //float distance = Vector2.Distance(transform.position, collider.transform.position); //get distance from dog. (dog position - sheep position)
+                    //float repelStrength = Mathf.Lerp(repelForce, 0f, distance / radius); // Adjust repel strength based on distance
+                    collider.GetComponent<Sheep>().ApplyRepulsion(repelDirection, distanceToDog); //call method on sheep script
                 }
             }
         }

@@ -18,7 +18,7 @@ public class SheepLogic : MonoBehaviour
         }
 
         var force = Mathf.Lerp(maxForce, minForce, (delta.magnitude - minRange) / maxRange);
-        print(force);
+        //print(force);
         return delta.normalized * force;
     }
 }

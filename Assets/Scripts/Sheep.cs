@@ -37,10 +37,13 @@ public void ApplyRepulsion(Vector2 repulsionDirection, float distanceToDog) //ca
 
         if (totalForce != Vector2.zero)
         {
-            print("moving");
+            //print("moving");
             transform.position += (Vector3)totalForce * Time.deltaTime;
             forces.Clear();
         }
+
+        sheeps = GameObject.FindGameObjectsWithTag("Sheep");
+
     }
 
     private void AttractSheeps()
@@ -74,7 +77,9 @@ public void ApplyRepulsion(Vector2 repulsionDirection, float distanceToDog) //ca
 
     private GameObject[] GetClosestItems(GameObject[] objs, int itemCount)
     {
-        return sheeps.OrderBy(x => (x.transform.position - transform.position).magnitude)
+
+        return sheeps.Where(x => x != null)
+            .OrderBy(x => (x.transform.position - transform.position).magnitude)
             .Take(itemCount)
             .ToArray();
     }

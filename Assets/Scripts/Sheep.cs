@@ -14,4 +14,13 @@ public class Sheep : MonoBehaviour
         Vector3 newPosition = transform.position + (Vector3)repulsionDirection * runSpeed * Time.deltaTime; //convert vector 2 to vector 3. new position has speed applied to it
         transform.position = newPosition; //update its position accordingly.
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Boundary"))
+        {
+
+            Debug.Log("sheep collided with " + collision);
+        }
+    }
 }

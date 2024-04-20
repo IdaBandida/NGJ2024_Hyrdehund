@@ -41,11 +41,17 @@ public class PlayerController : MonoBehaviour
                 {
                     Vector2 repelDirection = (collider.transform.position - transform.position).normalized; //calculate the direction and make it a unit vector by normalizing it
                     float distanceToDog = Vector2.Distance(collider.transform.position, dogTransform.position); //get distance from dog
-                    //float distance = Vector2.Distance(transform.position, collider.transform.position); //get distance from dog. (dog position - sheep position)
-                    //float repelStrength = Mathf.Lerp(repelForce, 0f, distance / radius); // Adjust repel strength based on distance
                     collider.GetComponent<Sheep>().ApplyRepulsion(repelDirection, distanceToDog); //call method on sheep script
                 }
             }
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Boundary"))
+        {
+            Debug.Log("player collided with " + collision);
         }
     }
 }

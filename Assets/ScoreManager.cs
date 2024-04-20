@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
     private int sheepCount;
+    public TextMeshProUGUI scoreText;
 
     private void Start()
     {
@@ -27,5 +30,11 @@ public class ScoreManager : MonoBehaviour
 
         }
 
+        UpdateScoreText();
+    }
+
+    private void UpdateScoreText()
+    {
+        scoreText.text = sheepCount.ToString();
     }
 }

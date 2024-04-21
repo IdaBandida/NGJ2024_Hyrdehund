@@ -171,6 +171,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (50)
@@ -228,6 +240,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (32)
@@ -284,6 +308,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -398,6 +434,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -603,6 +651,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (58)
@@ -659,6 +719,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -774,6 +846,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (55)
@@ -830,6 +914,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -888,6 +984,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (69)
@@ -945,6 +1053,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (57)
@@ -1001,6 +1121,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -1163,6 +1295,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (75)
@@ -1219,6 +1363,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -1277,6 +1433,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (43)
@@ -1333,6 +1501,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -1598,6 +1778,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (71)
@@ -1654,6 +1846,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -1757,6 +1961,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (41)
@@ -1813,6 +2029,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -1955,6 +2183,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (46)
@@ -2011,6 +2251,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -2069,6 +2321,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (74)
@@ -2126,6 +2390,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (73)
@@ -2182,6 +2458,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -2324,6 +2612,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (63)
@@ -2380,6 +2680,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -2495,6 +2807,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (59)
@@ -2609,6 +2933,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (36)
@@ -2665,6 +3001,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -2723,6 +3071,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (65)
@@ -2779,6 +3139,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -2837,6 +3209,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (30)
@@ -2893,6 +3277,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -2951,6 +3347,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (67)
@@ -3007,6 +3415,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -3149,6 +3569,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (53)
@@ -3275,6 +3707,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (82)
@@ -3388,6 +3832,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -3515,6 +3971,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (81)
@@ -3571,6 +4039,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -3686,6 +4166,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (72)
@@ -3742,6 +4234,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -3800,6 +4304,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2745157327616722479, guid: 53b0bdf9fba067f4cb4bdaf9f67da21b, type: 3}
+      propertyPath: repelRadius
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7482307321828675911, guid: 53b0bdf9fba067f4cb4bdaf9f67da21b, type: 3}
       propertyPath: m_Name
       value: Player
@@ -3856,6 +4364,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -3971,6 +4491,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (76)
@@ -4028,6 +4560,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (31)
@@ -4084,6 +4628,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -4199,6 +4755,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (51)
@@ -4255,6 +4823,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -4313,6 +4893,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (44)
@@ -4369,6 +4961,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -4427,6 +5031,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (78)
@@ -4483,6 +5099,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -4609,6 +5237,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (79)
@@ -4665,6 +5305,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -4780,6 +5432,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (77)
@@ -4836,6 +5500,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
@@ -4894,6 +5570,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (45)
@@ -4951,6 +5639,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name
       value: Sheep (70)
@@ -5007,6 +5707,18 @@ PrefabInstance:
     - target: {fileID: 410632608494181328, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: maxRepelSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 816432304277316667, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
+      propertyPath: minRepelSpeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4277959791917624766, guid: 47449c14e7bc95e4ab0ee444e5ebbdf3, type: 3}
       propertyPath: m_Name

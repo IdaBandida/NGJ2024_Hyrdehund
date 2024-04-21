@@ -61,4 +61,11 @@ public class PlayerController : MonoBehaviour
             Debug.Log("player collided with " + collision);
         }
     }
+
+    void OnDrawGizmos()
+    {
+        // Display the explosion radius when selected
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, repelRadius);
+    }
 }

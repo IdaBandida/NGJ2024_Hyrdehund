@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3148339431305258362}
   - component: {fileID: 2733852010263703000}
   m_Layer: 0
-  m_Name: EdgeBush
+  m_Name: EdgeBush 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: a7f077d34216a9d4a876e5cc073632b5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d96bdcb50859fa04aa32f68c545f5d26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -7,6 +7,8 @@ public class Sheep : MonoBehaviour
     public float maxRepelSpeed = 10f; //to control the min and max distance the sheep should run at
     public float minRepelSpeed = 2f;
     public float maxDistance = 5f; //what distance the sheep should move at the minimum speed.
+    private Vector2 moveInput;
+    private Animator animator;
     private Rigidbody2D rb;
     private GameObject[] sheeps;
     private GameObject[] obstacles;
@@ -46,10 +48,22 @@ public class Sheep : MonoBehaviour
         sheeps = GameObject.FindGameObjectsWithTag("Sheep");
         obstacles = GameObject.FindGameObjectsWithTag("Obstacle");
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     public void Update()
     {
+        moveInput.x = Input.GetAxisRaw("Horizontal") * Time.deltaTime; //apply input to x axis
+        moveInput.y = Input.GetAxisRaw("Vertical") * Time.deltaTime; //apply input to y axis
+
+        moveInput.Normalize();
+
+        animator.SetBool("right", moveInput.x > 0);
+        animator.SetBool("left", moveInput.x < 0);
+        animator.SetBool("up", moveInput.y > 0);
+        animator.SetBool("down", moveInput.y < 0);
+
+
         rb.velocity *= 0.9f;
         AttractSheeps();
         AvoidSheeps();

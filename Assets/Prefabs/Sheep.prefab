@@ -99,9 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a3a58bcbb62ac447a3c0e948428f9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxRepelSpeed: 14
-  minRepelSpeed: 6
-  maxDistance: 7
+  maxRepelSpeed: 15
+  minRepelSpeed: 5
+  maxDistance: 10
 --- !u!58 &940533407780226413
 CircleCollider2D:
   m_ObjectHideFlags: 0

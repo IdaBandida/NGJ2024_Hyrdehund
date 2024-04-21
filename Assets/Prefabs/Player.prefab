@@ -961,7 +961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 15
-  repelRadius: 7
+  repelRadius: 10
   rb: {fileID: 6302387790714145743}
   dogTransform: {fileID: 1475172580208886907}
 --- !u!50 &6302387790714145743

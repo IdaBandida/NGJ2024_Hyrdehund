@@ -7,7 +7,6 @@ public class Sheep : MonoBehaviour
     public float maxRepelSpeed = 10f; //to control the min and max distance the sheep should run at
     public float minRepelSpeed = 2f;
     public float maxDistance = 5f; //what distance the sheep should move at the minimum speed.
-    private Vector2 moveInput;
     private Animator animator;
     private Rigidbody2D rb;
     private GameObject[] sheeps;
@@ -53,17 +52,6 @@ public class Sheep : MonoBehaviour
 
     public void Update()
     {
-        moveInput.x = Input.GetAxisRaw("Horizontal") * Time.deltaTime; //apply input to x axis
-        moveInput.y = Input.GetAxisRaw("Vertical") * Time.deltaTime; //apply input to y axis
-
-        moveInput.Normalize();
-
-        animator.SetBool("right", moveInput.x > 0);
-        animator.SetBool("left", moveInput.x < 0);
-        animator.SetBool("up", moveInput.y > 0);
-        animator.SetBool("down", moveInput.y < 0);
-
-
         rb.velocity *= 0.9f;
         AttractSheeps();
         AvoidSheeps();
@@ -74,11 +62,22 @@ public class Sheep : MonoBehaviour
             totalForce += force;
         }
 
-        if (totalForce != Vector2.zero)
+        if (totalForce.magnitude > 0.1f)
         {
-            //print("moving");
             transform.position += (Vector3)totalForce * Time.deltaTime;
+            var dir = totalForce.normalized;
+            animator.SetBool("right", dir.x > 0.1f);
+            animator.SetBool("left", dir.x < -0.1f);
+            animator.SetBool("up", dir.y > 0.1f);
+            animator.SetBool("down", dir.y < -0.1f);
             forces.Clear();
+        }
+        else
+        {
+            animator.SetBool("right", false);
+            animator.SetBool("left", false);
+            animator.SetBool("up", false);
+            animator.SetBool("down", false);
         }
 
         sheeps = GameObject.FindGameObjectsWithTag("Sheep");

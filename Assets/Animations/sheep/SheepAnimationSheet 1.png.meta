@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e80933942ec9340479ad866ff500ba63
+guid: 3f9b54f247768c24d9483567ecbe2721
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,148 +97,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SheepAnimationSheet_0
+      name: body_side
       rect:
         serializedVersion: 2
-        x: 33
-        y: 1010
-        width: 372
-        height: 263
+        x: 35
+        y: 1008
+        width: 379
+        height: 266
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef095594d6b043c4bb81ccb405c879dd
-      internalID: -643098124
+      spriteID: 9d9d9dfcafd3e1e43abf674aa074cc66
+      internalID: 1219182618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SheepAnimationSheet_1
+      name: face
       rect:
         serializedVersion: 2
-        x: 489
-        y: 1010
-        width: 372
-        height: 263
+        x: 515
+        y: 1072
+        width: 169
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23e9898e6f30876449a9516087d54d80
-      internalID: -1313321600
+      spriteID: 4687b6f0f1959824da46680767d95cdf
+      internalID: 969063244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SheepAnimationSheet_2
+      name: ear.L
       rect:
         serializedVersion: 2
-        x: 974
-        y: 1152
+        x: 785
+        y: 1090
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d2facc32d91f94c9ca3afee4da1666
+      internalID: 595384319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earR
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1106
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6c17a05fd5bae4bbd09a9c083f043c
+      internalID: 2142934492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: up
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 673
+        width: 376
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330fcf4e4fd4d1043acdac980ee217e0
+      internalID: 650941108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 269
+        width: 360
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3d78cd75e1af046a684d62a2688a96
+      internalID: -1644352452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ear down
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 304
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32136149c101686449b2601caf8f4882
+      internalID: -1112231307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ear Down R
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 301
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bafab88edf99644db6cb5e756183921
+      internalID: 1377205002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 83
         width: 44
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd41d1abc17b6074388bf50be9cbb58f
-      internalID: 1647098724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SheepAnimationSheet_3
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 661
-        width: 372
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 039e52a3072b4f544a50e179bd8a28de
-      internalID: 489484943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SheepAnimationSheet_4
-      rect:
-        serializedVersion: 2
-        x: 489
-        y: 661
-        width: 372
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2a7df4930de64e4fb2fcffd7ce32ceb
-      internalID: 788341600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SheepAnimationSheet_5
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 294
-        width: 372
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d7f0471301e7d44497db488b1b376a0
-      internalID: -844203364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SheepAnimationSheet_6
-      rect:
-        serializedVersion: 2
-        x: 489
-        y: 294
-        width: 372
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e637f024caaccc49b4419e2a3960703
-      internalID: 922545454
+      spriteID: 45c6fcfd36ea67446aaec9f5471a60f9
+      internalID: -593467955
       vertices: []
       indices: 
       edges: []
@@ -254,13 +296,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SheepAnimationSheet_0: -643098124
-      SheepAnimationSheet_1: -1313321600
-      SheepAnimationSheet_2: 1647098724
-      SheepAnimationSheet_3: 489484943
-      SheepAnimationSheet_4: 788341600
-      SheepAnimationSheet_5: -844203364
-      SheepAnimationSheet_6: 922545454
+      Ear Down R: 1377205002
+      body_side: 1219182618
+      down: -1644352452
+      ear down: -1112231307
+      ear.L: 595384319
+      earR: 2142934492
+      face: 969063244
+      leg: -593467955
+      up: 650941108
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

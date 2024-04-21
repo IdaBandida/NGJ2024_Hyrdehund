@@ -8,11 +8,31 @@ public class Sheep : MonoBehaviour
     public float minRepelSpeed = 2f;
     public float maxDistance = 5f; //what distance the sheep should move at the minimum speed.
     private GameObject[] sheeps;
+    private GameObject[] obstacles;
     private List<Vector2> forces = new List<Vector2>();
-    public SheepLogic avoidSheeps;
-    public SheepLogic attractSheeps;
+    private SheepLogic avoidSheeps = new SheepLogic
+    {
+        minRange = 0.5f,
+        minForce = -15f,
+        maxRange = 1f,
+        maxForce = 0f
+    };
+    private SheepLogic attractSheeps = new SheepLogic
+    {
+        minRange = 1,
+        minForce = 0.3f,
+        maxRange = 6f,
+        maxForce = 0.6f
+    };
+    private SheepLogic avoidObstacles = new SheepLogic
+    {
+        minRange = 0,
+        minForce = -0.7f,
+        maxRange = 4f,
+        maxForce = 0f
+    };
 
-public void ApplyRepulsion(Vector2 repulsionDirection, float distanceToDog) //called from player controller
+    public void ApplyRepulsion(Vector2 repulsionDirection, float distanceToDog) //called from player controller
     {
         float runSpeed = Mathf.Lerp(maxRepelSpeed, minRepelSpeed, distanceToDog / maxDistance);
         forces.Add(repulsionDirection * runSpeed);
@@ -23,12 +43,14 @@ public void ApplyRepulsion(Vector2 repulsionDirection, float distanceToDog) //ca
     public void Start()
     {
         sheeps = GameObject.FindGameObjectsWithTag("Sheep");
+        obstacles = GameObject.FindGameObjectsWithTag("Obstacle");
     }
 
     public void Update()
     {
         AttractSheeps();
         AvoidSheeps();
+        AvoidObstacles();
         var totalForce = Vector2.zero;
         foreach (var force in forces)
         {
@@ -48,11 +70,11 @@ public void ApplyRepulsion(Vector2 repulsionDirection, float distanceToDog) //ca
 
     private void AttractSheeps()
     {
-        foreach(var sheep in GetClosestItems(sheeps, 3))
+        foreach(var sheep in GetClosestItems(sheeps, 3, attractSheeps.maxRange))
         {
             if (sheep == gameObject) continue; //skip the current sheep (this sheep)
 
-            var force = attractSheeps.GetAttraction(sheep.transform.position);
+            var force = attractSheeps.GetAttraction(transform.position, sheep.transform.position);
             if (force != Vector2.zero)
             {
                 forces.Add(force);
@@ -62,25 +84,36 @@ public void ApplyRepulsion(Vector2 repulsionDirection, float distanceToDog) //ca
 
     private void AvoidSheeps()
     {
-        foreach (var sheep in GetClosestItems(sheeps, 3))
+        foreach (var sheep in GetClosestItems(sheeps, 5, avoidSheeps.maxRange))
         {
             if (sheep == gameObject) continue; //skip the current sheep (this sheep)
 
-            var force = avoidSheeps.GetAttraction(sheep.transform.position);
+            var force = avoidSheeps.GetAttraction(transform.position, sheep.transform.position);
             if (force != Vector2.zero)
             {
-                print(force);
                 forces.Add(force);
             }
         }
     }
 
-    private GameObject[] GetClosestItems(GameObject[] objs, int itemCount)
+    private void AvoidObstacles()
     {
+        foreach (var obstacle in GetClosestItems(obstacles, 5, avoidObstacles.maxRange))
+        {
+            var force = avoidObstacles.GetAttraction(transform.position, obstacle.transform.position);
+            if (force != Vector2.zero)
+            {
+                forces.Add(force);
+            }
+        }
+    }
 
-        return sheeps.Where(x => x != null)
+    private GameObject[] GetClosestItems(GameObject[] objs, int maxCount, float maxRange)
+    {
+        return objs.Where(x => x != null)
+            .Where(x => (x.transform.position - transform.position).magnitude <= maxRange)
             .OrderBy(x => (x.transform.position - transform.position).magnitude)
-            .Take(itemCount)
+            .Take(maxCount)
             .ToArray();
     }
 
